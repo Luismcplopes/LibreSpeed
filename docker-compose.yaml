@@ -16,7 +16,7 @@ services:
 #      - DB_PASSWORD=DB_PASSWORD #optional
 #      - DB_PORT=DB_PORT #optional
     volumes:
-      - /home/luis/docker/LibreSpeed/config:/config
+      - ./LibreSpeed/config:/config
     ports:
       - 10101:80
     restart: unless-stopped
